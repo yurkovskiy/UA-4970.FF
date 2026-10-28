@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    background-color: rgb(218, 214, 210);
+    margin-top: 60px;
+}
+
+nav {
+    font-size: 1.2em;
+    background-color: coral;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 40px;
+}
+
+h2 {
+    scroll-margin-top: 60px;
+}
+
