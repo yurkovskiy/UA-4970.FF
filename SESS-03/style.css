@@ -1,0 +1,71 @@
+h1 {
+    color: blue;
+    font-size: 300%;
+}
+
+h2 {
+    color: purple;
+    font-size: 2.5em;
+}
+
+h2:hover {
+    background-color: yellow;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+section:focus {
+    background-color: green;
+}
+
+/* .blueclass {
+    font-size: 18px;
+    color: blue;
+}
+
+section {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+#about {
+    color: aqua;
+}
+
+h2#about {
+    color: chartreuse !important;
+}
+
+h2#about.blueclass {
+    color: brown;
+}
+
+#edu ~ article > section {
+    font-size: 20px !important; 
+}
+
+body > main > #edu ~ article > section {
+    font-size: 40px;
+} */
+
+[type="text"] {
+    color:aqua;
+}
+
+ul > :first-child {
+    background-color: red;
+}
+
+ul > :nth-child(2n) {
+    background-color: green;
+}
+
+ul > :nth-child(2n+1) {
+    background-color: yellow;
+}
+
+section::first-line {
+    font-size: 3em;
+}

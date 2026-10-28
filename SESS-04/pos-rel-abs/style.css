@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    position: relative;
+    border: 2px solid #000;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(235, 226, 226);
+    top: 100px;
+    left: 100px;
+}
+
+div {
+    position: absolute;
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 3em;
+    line-height: 2;
+}
+
+#A {
+    top: 50px;
+    left: 50px;
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+
+#B {
+    top: 100px;
+    left: 100px;
+    background-color: black;
+    color: white;
+    z-index: 100;
+}
+
+#C {
+    top: 150px;
+    left: 150px;
+    background-color: white;
+    color: black;
+
+}
+
+#D {
+    top: 200px;
+    left: 200px;
+    background-color: black;
+    color: white;
+}
