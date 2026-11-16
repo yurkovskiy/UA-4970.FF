@@ -1,0 +1,9 @@
+ERM - Employee Records Management
+
+- Employee - it's a person with position, salary
+- Manager - it's a Employee who can manage number of persons
+------------------
+DRY - Don't Repeat Yourself
+------
+
+Person: firstname, lastname, birthday

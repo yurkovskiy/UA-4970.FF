@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    display: inline;
+}
+
+#a {
+    background-color: cadetblue;
+    width: 500px;
+}
+
+#b {
+    background-color: burlywood;
+    width: 500px;
+}

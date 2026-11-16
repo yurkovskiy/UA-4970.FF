@@ -21,3 +21,9 @@ h2 {
     scroll-margin-top: 60px;
 }
 
+img {
+    float: left;
+    margin: 5px;
+}
+
+

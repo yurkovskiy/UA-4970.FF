@@ -9,6 +9,7 @@ main {
     width: 500px;
     height: 400px;
     background-color: rgb(235, 226, 226);
+    background-image: linear-gradient(to right bottom, blue, red);
     top: 100px;
     left: 100px;
 }

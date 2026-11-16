@@ -1,0 +1,17 @@
+Encapsulation:
+- hiding details of implementation???
+  - direct access to data is prohibited
+- joining data and methods (functions) for handling the data?
+----------
+
+Classes & Objects
+-------------
+Class - declaration of new type (template)
+Object - it's entity which exists in a memory (RAM)
+
+two verbs related to OOP:
+- Objects know
+- Objects can do something
+---------------
+
+Inheritance - ability to extend exising classes to add more specific functionality

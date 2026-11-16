@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Base Styles & Reset
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d3748;
+  background-color: #f7fafc;
+  /* Top padding ensures fixed navbar does not conceal top content */
+  padding-top: 70px;
+}
+
+/* ==========================================================================
+   Fixed Navigation Bar (Positioning: fixed)
+   ========================================================================== */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1a202c;
+  color: #ffffff;
+  z-index: 1000;
+  border-bottom: 2px solid #3182ce;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 960px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-brand {
+  float: left;
+  line-height: 60px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #edf2f7;
+}
+
+.nav-links {
+  float: right;
+  list-style-type: none;
+  line-height: 60px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #cbd5e0;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  color: #63b3ed;
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Layout & Container (Normal Flow & Margins)
+   ========================================================================== */
+
+.page-container {
+  width: 90%;
+  max-width: 850px;
+  margin: 25px auto 40px auto;
+}
+
+.cv-section {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 24px 30px;
+  margin-bottom: 24px;
+  /* Offset scroll target so fixed navbar does not overlap anchor headings */
+  scroll-margin-top: 80px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  color: #2b6cb0;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+
+/* ==========================================================================
+   Profile Section (Float & Clearfix)
+   ========================================================================== */
+
+.profile-photo {
+  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #cbd5e0;
+  margin-right: 24px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.profile-text {
+  margin-bottom: 12px;
+  color: #4a5568;
+}
+
+/* Clearfix utility to contain floated elements */
+.clear-both {
+  clear: both;
+}
+
+/* ==========================================================================
+   Card & List Content Blocks (Normal Flow)
+   ========================================================================== */
+
+.entry-card {
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px dotted #cbd5e0;
+}
+
+.entry-card:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.entry-heading {
+  font-size: 1.05rem;
+  color: #2d3748;
+  margin-bottom: 2px;
+}
+
+.entry-meta {
+  font-size: 0.85rem;
+  color: #718096;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.entry-desc {
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.hobby-list {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #4a5568;
+}
+
+.hobby-list li {
+  margin-bottom: 6px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.page-footer {
+  text-align: center;
+  padding: 20px 0 35px 0;
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
